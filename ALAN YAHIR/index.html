@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="PAEC — Artesanías de Ocoxal Otomí, Estado de México"/>
+  <title>PAEC · Ocoxal Otomí</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;1,300;1,600&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="estilos.css"/>
+</head>
+<body>
+
+  <!-- ▓▓ NAVBAR ▓▓ -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#inicio" class="nav-logo">
+        <span class="logo-mark">◆</span>
+        <span>PAEC</span>
+      </a>
+      <button class="nav-burger" id="burger">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#impacto">Impacto</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ▓▓ HERO ▓▓ -->
+    <section class="hero" id="inicio">
+      <div class="hero-left">
+        <div class="hero-deco-line"></div>
+        <p class="hero-kicker">Proyecto Aula · Escuela · Comunidad</p>
+        <h1 class="hero-h1">
+          Arte que nace<br>
+          <em>del bosque</em><br>
+          otomí
+        </h1>
+        <p class="hero-sub">
+          Artesanías de ocoxal elaboradas a mano en las comunidades
+          otomíes del Estado de México — tradición viva que une
+          generaciones, escuelas y territorios.
+        </p>
+        <a href="#galeria" class="hero-btn">Ver Galería →</a>
+
+        <div class="hero-badges">
+          <span>✦ 100% Natural</span>
+          <span>✦ Hecho a Mano</span>
+          <span>✦ Región Otomí</span>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-img-frame">
+          <!--
+          -->
+          <img src="imagenes/c1.jpg" alt="Artesanía de ocoxal" onerror="this.style.display='none'"/>
+          <div class="c1-ph">
+            <p>IMAGEN PRINCIPAL</p>
+          </div>
+          <div class="hero-img-tag">Ocoxal · Edo. México</div>
+        </div>
+        <div class="hero-img-mini">
+          <!--
+          -->
+          <img src="imagenes/c2.jpg" alt="Detalle artesanal" onerror="this.style.display='none'"/>
+          <div class="c2-ph-mini"><p>DETALLE</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ▓▓ GALERÍA — SLIDER ▓▓ -->
+    <section class="galeria" id="galeria">
+      <div class="galeria-head">
+        <div class="g-left">
+          <p class="seccion-kicker">◆ Colección</p>
+          <h2 class="seccion-h2">Galería de<br><em>Artesanías</em></h2>
+        </div>
+        <p class="g-desc">
+          Cinco piezas únicas elaboradas con hojas de ocote recolectadas
+          en los bosques del Estado de México.
+        </p>
+      </div>
+
+      <!-- SLIDER -->
+      <div class="slider-wrap">
+        <button class="slider-btn prev" id="sliderPrev" aria-label="Anterior">‹</button>
+        <div class="slider-viewport" id="sliderViewport">
+          <div class="slider-track" id="sliderTrack">
+
+            <!-- SLIDE 1 (Cesta Tradicional) -->
+            <div class="slide">
+              <div class="slide-img">
+                <!--
+                -->
+                <img src="imagenes/c3.jpg" alt="Cesta Tradicional" onerror="this.style.display='none'"/>
+                <div class="c3-ph"><span>01</span></div>
+              </div>
+              <div class="slide-info">
+                <span class="slide-num">01 / 04</span>
+                <h3>Cesta Tradicional</h3>
+                <p>Tejida con tiras de hojas de ocote secas siguiendo patrones geométricos heredados de la comunidad otomí del Estado de México.</p>
+                <div class="slide-tags">
+                  <span>Tejido</span><span>Ocoxal</span><span>Geometría</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- SLIDE 2 (Adorno Ceremonial) — antes slide 3 -->
+            <div class="slide">
+              <div class="slide-img">
+                <!--
+                -->
+                <img src="imagenes/c5.jpg" alt="Adorno Ceremonial" onerror="this.style.display='none'"/>
+                <div class="c5-ph"><span>02</span></div>
+              </div>
+              <div class="slide-info">
+                <span class="slide-num">02 / 04</span>
+                <h3>Adorno Ceremonial</h3>
+                <p>Pieza ritual decorada con motivos del simbolismo otomí, elaborada para festividades y celebraciones de la comunidad.</p>
+                <div class="slide-tags">
+                  <span>Ritual</span><span>Simbolismo</span><span>Otomí</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- SLIDE 3 (Canasto Artesanal) — antes slide 4, ahora imagen c1.jpg -->
+            <div class="slide">
+              <div class="slide-img">
+                <!--
+                -->
+                <img src="imagenes/c1.jpg" alt="Canasto Artesanal" onerror="this.style.display='none'"/>
+                <div class="c6-ph"><span>03</span></div>
+              </div>
+              <div class="slide-info">
+                <span class="slide-num">03 / 04</span>
+                <h3>Canasto Artesanal</h3>
+                <p>Tejido circular de uso cotidiano con patrones entrelazados. Cada canasto puede tomar varios días de trabajo continuo.</p>
+                <div class="slide-tags">
+                  <span>Trenzado</span><span>Cotidiano</span><span>Circular</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- SLIDE 4 (Miniatura Colección) — antes slide 5 -->
+            <div class="slide">
+              <div class="slide-img">
+                <!--
+                -->
+                <img src="imagenes/c7.jpg" alt="Miniatura Colección" onerror="this.style.display='none'"/>
+                <div class="c7-ph"><span>04</span></div>
+              </div>
+              <div class="slide-info">
+                <span class="slide-num">04 / 04</span>
+                <h3>Miniatura de Colección</h3>
+                <p>Pieza en pequeño formato que condensa la destreza artesanal. Ideal como recuerdo y representación de la identidad otomí.</p>
+                <div class="slide-tags">
+                  <span>Miniatura</span><span>Colección</span><span>Arte</span>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /track -->
+        </div><!-- /viewport -->
+        <button class="slider-btn next" id="sliderNext" aria-label="Siguiente">›</button>
+      </div>
+
+      <!-- DOTS (ahora 4 puntos) -->
+      <div class="slider-dots" id="sliderDots">
+        <button class="dot active" data-idx="0"></button>
+        <button class="dot" data-idx="1"></button>
+        <button class="dot" data-idx="2"></button>
+        <button class="dot" data-idx="3"></button>
+      </div>
+    </section>
+
+    <!-- ▓▓ HISTORIA DEL OCOXAL ▓▓ -->
+    <section class="historia" id="historia">
+      <div class="historia-inner">
+
+        <div class="hist-img-col fade">
+          <div class="hist-img-top">
+            <!--
+            -->
+            <img src="imagenes/c8.jpg" alt="Historia del ocoxal" onerror="this.style.display='none'"/>
+            <div class="c8-ph"><p>IMAGEN HISTORIA</p></div>
+            <div class="hist-badge">Pinus montezumae</div>
+          </div>
+          <div class="hist-quote">
+            <span class="hq-mark">"</span>
+            <p>Las hojas del ocote guardan la memoria de quienes aprendieron a tejer antes que nosotros.</p>
+          </div>
+        </div>
+
+        <div class="hist-texto fade">
+          <p class="seccion-kicker">◆ Sección 01</p>
+          <h2 class="seccion-h2">Historia del<br><em>Ocoxal</em></h2>
+          <div class="hist-linea"></div>
+
+          <p>El término <strong>ocoxal</strong> designa las hojas secas caídas del árbol de ocote (<em>Pinus montezumae</em>), un pino nativo de los bosques de montaña del centro de México. Durante siglos, las comunidades otomíes del Estado de México han recolectado estas hojas para tejer objetos de uso cotidiano y ceremonial.</p>
+
+          <p>La práctica del tejido en ocoxal es anterior a la Colonia. Registros históricos y hallazgos arqueológicos confirman que este arte fue parte fundamental de la vida doméstica y ritual otomí mucho antes de la llegada de los españoles al Valle del Mezquital.</p>
+
+          <p>Hoy, el ocoxal representa una de las artesanías más singulares del Estado de México: completamente sustentable, elaborada con material que el bosque ofrece de forma natural, sin necesidad de talar ni dañar el árbol.</p>
+
+          <div class="hist-datos">
+            <div class="hd-item">
+              <span class="hd-val">Siglos</span>
+              <span class="hd-key">de tradición documentada</span>
+            </div>
+            <div class="hd-sep"></div>
+            <div class="hd-item">
+              <span class="hd-val">100%</span>
+              <span class="hd-key">material biodegradable</span>
+            </div>
+            <div class="hd-sep"></div>
+            <div class="hd-item">
+              <span class="hd-val">Otomí</span>
+              <span class="hd-key">pueblo originario</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ▓▓ IMPACTO ESCOLAR ▓▓ -->
+    <section class="impacto" id="impacto">
+      <div class="impacto-head">
+        <p class="seccion-kicker claro">◆ Sección 02</p>
+        <h2 class="seccion-h2 claro">Impacto<br><em>Escolar</em></h2>
+        <p class="impacto-desc">El PAEC lleva la artesanía del ocoxal al aula como herramienta de aprendizaje, identidad y transformación comunitaria.</p>
+      </div>
+
+      <div class="impacto-cards">
+
+        <div class="imp-card fade">
+          <div class="imp-icon">◎</div>
+          <h3>Educación Cultural</h3>
+          <p>Los alumnos aprenden la historia y técnica del ocoxal dentro del aula, conectando el currículo escolar con la herencia cultural de su comunidad otomí.</p>
+        </div>
+
+        <div class="imp-card fade">
+          <div class="imp-icon">◎</div>
+          <h3>Habilidades Manuales</h3>
+          <p>El tejido en ocoxal desarrolla la motricidad fina, la paciencia y la creatividad en niños y jóvenes estudiantes de la región.</p>
+        </div>
+
+        <div class="imp-card fade">
+          <div class="imp-icon">◎</div>
+          <h3>Identidad y Orgullo</h3>
+          <p>Al conocer y practicar la artesanía ancestral, los estudiantes fortalecen su sentido de pertenencia al pueblo otomí y valoran su herencia.</p>
+        </div>
+
+        <div class="imp-card fade">
+          <div class="imp-icon">◎</div>
+          <h3>Sostenibilidad</h3>
+          <p>El proyecto enseña el valor de los recursos naturales del bosque, promoviendo una relación respetuosa y sustentable con el entorno.</p>
+        </div>
+
+        <div class="imp-card imp-card-wide fade">
+          <div class="imp-icon">◎</div>
+          <h3>Vínculo Escuela — Comunidad</h3>
+          <p>El PAEC crea puentes entre las familias artesanas y las escuelas, invitando a maestros artesanos a compartir su saber directamente en el aula. Este intercambio fortalece tanto la transmisión cultural como el tejido social de la comunidad otomí del Estado de México.</p>
+        </div>
+
+      </div>
+
+      <div class="impacto-imagen fade">
+        <!--
+        -->
+        <img src="imagenes/c9.jpg" alt="Impacto escolar PAEC" onerror="this.style.display='none'"/>
+        <div class="c9-img-ph"><p>IMAGEN IMPACTO</p></div>
+        <div class="impacto-overlay">
+          <p>"El aula como espacio de memoria y creación"</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ▓▓ CONTACTO ▓▓ -->
+    <section class="contacto" id="contacto">
+      <div class="ct-inner">
+        <div class="ct-texto fade">
+          <p class="seccion-kicker">◆ Escríbenos</p>
+          <h2 class="seccion-h2">¿Tienes una<br><em>pregunta?</em></h2>
+          <div class="ct-linea"></div>
+          <p>Si quieres saber más sobre el Proyecto Aula Escuela Comunidad, las artesanías de ocoxal o cómo participar, escríbenos.</p>
+          <ul class="ct-datos">
+            <li><span>◆</span><div><strong>Correo</strong><em>alanyahir@gmail.com</em></div></li>
+            <li><span>◆</span><div><strong>Ubicación</strong><em>Estado de México, México</em></div></li>
+            <li><span>◆</span><div><strong>Proyecto</strong><em>Aula · Escuela · Comunidad</em></div></li>
+          </ul>
+        </div>
+
+        <form class="ct-form fade" novalidate>
+          <div class="ct-row">
+            <div class="ct-campo">
+              <label>Nombre</label>
+              <input type="text" placeholder="Tu nombre completo"/>
+            </div>
+            <div class="ct-campo">
+              <label>Correo</label>
+              <input type="email" placeholder="tu@correo.com"/>
+            </div>
+          </div>
+          <div class="ct-campo">
+            <label>Asunto</label>
+            <input type="text" placeholder="¿Sobre qué nos escribes?"/>
+          </div>
+          <div class="ct-campo">
+            <label>Mensaje</label>
+            <textarea rows="5" placeholder="Escribe tu mensaje..."></textarea>
+          </div>
+          <button type="submit">Enviar mensaje <span>→</span></button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ▓▓ FOOTER ▓▓ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="ft-top">
+        <div class="ft-logo">
+          <span class="logo-mark">◆</span>
+          <span>PAEC</span>
+        </div>
+        <nav class="ft-nav">
+          <a href="#inicio">Inicio</a>
+          <a href="#galeria">Galería</a>
+          <a href="#historia">Historia</a>
+          <a href="#impacto">Impacto</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+      <div class="ft-divider"></div>
+      <div class="ft-bottom">
+        <!-- ★ CRÉDITO ★ -->
+        <div class="ft-credito">
+          <span>Página creada por</span>
+          <strong>Alan Yahir Aguirre Marcos</strong>
+        </div>
+        <p class="ft-copy">© 2026 Proyecto PAEC · Artesanías Otomí · Estado de México</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    /* ── NAVBAR ── */
+    const burger = document.getElementById('burger');
+    const menu   = document.getElementById('menu');
+    burger.addEventListener('click', () => {
+      menu.classList.toggle('open');
+      burger.classList.toggle('open');
+    });
+    menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      menu.classList.remove('open');
+      burger.classList.remove('open');
+    }));
+    const navEl = document.getElementById('nav');
+    window.addEventListener('scroll', () => navEl.classList.toggle('scrolled', scrollY > 50));
+
+    /* ── SLIDER ── */
+    const track  = document.getElementById('sliderTrack');
+    const dots   = document.querySelectorAll('.dot');
+    const slides = document.querySelectorAll('.slide');
+    let current  = 0;
+
+    function goTo(idx) {
+      current = (idx + slides.length) % slides.length;
+      track.style.transform = `translateX(-${current * 100}%)`;
+      dots.forEach((d, i) => d.classList.toggle('active', i === current));
+    }
+
+    document.getElementById('sliderPrev').addEventListener('click', () => goTo(current - 1));
+    document.getElementById('sliderNext').addEventListener('click', () => goTo(current + 1));
+    dots.forEach(d => d.addEventListener('click', () => goTo(+d.dataset.idx)));
+
+    // Swipe táctil
+    let startX = 0;
+    const vp = document.getElementById('sliderViewport');
+    vp.addEventListener('touchstart', e => startX = e.touches[0].clientX);
+    vp.addEventListener('touchend',   e => {
+      const dx = e.changedTouches[0].clientX - startX;
+      if (Math.abs(dx) > 50) goTo(dx < 0 ? current + 1 : current - 1);
+    });
+
+    // Autoplay
+    let autoplay = setInterval(() => goTo(current + 1), 5000);
+    vp.addEventListener('mouseenter', () => clearInterval(autoplay));
+    vp.addEventListener('mouseleave', () => autoplay = setInterval(() => goTo(current + 1), 5000));
+
+    /* ── FADE IN ── */
+    const fades = document.querySelectorAll('.fade');
+    const io = new IntersectionObserver(entries => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 80);
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    fades.forEach(el => io.observe(el));
+  </script>
+</body>
+</html>
